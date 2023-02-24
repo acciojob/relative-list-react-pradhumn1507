@@ -1,11 +1,20 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
-  return (
-    <div id="main">
-               {/* Do not remove the main div */}
-    </div>
-  )
-}
+    const fam = [
+        { id: "relativeListItem2", name: "Lee" },
+        { id: "relativeListItem1", name: "Jack" },
+        { id: "relativeListItem3", name: "Sparrow" },
+    ];
 
-export default App
+    return (
+        <div id="main">
+            <ol id="relativeList">
+                <li id="relativeListItem1">Ben</li>
+                <li id="relativeListItem2">John</li>
+            </ol>
+        </div>
+    );
+};
+
+export default App;
